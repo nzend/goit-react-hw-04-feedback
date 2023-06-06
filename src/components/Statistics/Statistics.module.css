@@ -1,0 +1,20 @@
+.statisticList {
+  border-bottom: aqua 2px solid;
+}
+
+.statisticItem {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.statistic {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+.total {
+  margin-bottom: 10px;
+}

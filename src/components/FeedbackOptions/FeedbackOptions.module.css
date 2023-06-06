@@ -1,0 +1,21 @@
+.optionsList {
+  /* margin-left: auto;
+    margin-right: auto; */
+}
+.optionItem {
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 16px;
+}
+.feedbackBtn {
+  display: block;
+  width: 120px;
+  height: 32px;
+
+  border: 1px solid black;
+    background-color: aquamarine;
+  border-radius: 74px;
+  color: #111111;
+  cursor: pointer;
+
+}
