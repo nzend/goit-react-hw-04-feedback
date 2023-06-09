@@ -15,8 +15,10 @@ export const Statistics = ({
       <li className={css.statisticItem}>Bad: {bad}</li>
     </ul>
     <div className={css.statistic}>
-      <span className={css.total}>Total: {total()}</span>
-      <span className={css.positiveFeedback}>Positive feedback: {positiveFeedbackPercentage()}%</span>
+      <span className={css.total}>Total: {total}</span>
+      <span className={css.positiveFeedback}>
+        Positive feedback: {positiveFeedbackPercentage}%
+      </span>
     </div>
   </>
 );
@@ -26,7 +28,7 @@ Statistics.propTypes = {
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
 
-  total: PropTypes.func.isRequired,
+  total: PropTypes.number.isRequired,
 
-  positiveFeedbackPercentage: PropTypes.func.isRequired,
+  positiveFeedbackPercentage: PropTypes.number.isRequired,
 };
